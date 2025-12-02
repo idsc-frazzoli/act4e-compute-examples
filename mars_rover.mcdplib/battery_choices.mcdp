@@ -11,5 +11,5 @@ mcdp {
    # constant k_1 = 1 [USD*m*m/s*s]
    # constant k_2 = 1 [USD*m*m/s*s]
    
-   p ≤  k · m · c
+   p ≤  k · c · m
 }
