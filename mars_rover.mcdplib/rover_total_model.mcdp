@@ -8,6 +8,7 @@ mcdp {
   provided velocity ≤ velocity provided by chassis_dp
   required batt_cost ≥ batt_cost required by battery_dp
   
-  provided total_load by chassis_dp ≥ required batt_mass by battery_dp
+  power required by chassis_dp ≤ power provided by battery_dp
+  batt_mass required by battery_dp ≤ total_load provided by chassis_dp 
   
 }
