@@ -8,5 +8,5 @@ mcdp {
     constant min_required_power = 10 [W]
 
     required power ≥ min_required_power + gain_mass_velocity_to_power · (provided total_load + self_mass) · provided velocity
-
+  
 }

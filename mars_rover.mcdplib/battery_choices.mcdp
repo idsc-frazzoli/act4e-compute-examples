@@ -1,0 +1,5 @@
+dp {
+  provides power [W]
+  requires mass_battery [kg]
+  requires total_cost [USD]
+}
