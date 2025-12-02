@@ -1,6 +1,7 @@
 mcdp {
-    provides velocity [m/s]
+    
     provides total_load [kg]
+    provides velocity [m/s]
     requires power [W]
 
     constant self_mass = 70 [kg]

@@ -1,5 +1,6 @@
 mcdp {
    provides power [kg*m^2/s^3]
+   requires batt_mass [kg]
    requires batt_cost [USD]
    requires batt_mass [kg]
   
