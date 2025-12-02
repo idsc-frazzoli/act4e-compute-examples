@@ -1,0 +1,12 @@
+mcdp {
+  provides velocity [m/s]
+  requires batt_cost [1]
+
+  battery_dp = instance `battery_choices
+  chassis_dp = instance `chassis_and_motor
+
+  provided velocity ≤ velocity provided by chassis_dp
+  required batt_cost ≥ batt_cost required by battery_dp
+  
+  
+}

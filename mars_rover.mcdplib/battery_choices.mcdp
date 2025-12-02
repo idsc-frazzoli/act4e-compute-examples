@@ -1,14 +1,14 @@
 mcdp {
    provides power [W]
-   requires batt_cost [USD]
+   requires batt_cost [1]
    requires batt_mass [kg]
   
    p = provided power 
    m = required batt_mass
    c = required batt_cost
    
-   constant gain_power_cost_mass = 1 []
+   constant gain_power_cost_mass = 1 [m*m/s*s]
    k = gain_power_cost_mass
    
-   p ≤  k · (1 - m) · (1 - (1/c))
+   p ≤  k · (1 - m) · (1 - c)
 }
