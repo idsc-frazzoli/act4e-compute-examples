@@ -1,5 +1,12 @@
-dp {
-  provides power [W]
-  requires mass_battery [kg]
-  requires total_cost [USD]
+mcdp {
+   provides power [W]
+   requires batt_cost [USD]
+   requires batt_mass [kg]
+  
+   p = provided power 
+   m = required batt_mass
+   c = required batt_cost
+   
+   p ≤  (1-(2^(m)))
+     
 }
