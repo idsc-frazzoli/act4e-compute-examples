@@ -1,6 +1,5 @@
-catalog{
+mcdp{
     provides power [W]
     requires cost [CHF]
     requires mass [kg]
-    
 }

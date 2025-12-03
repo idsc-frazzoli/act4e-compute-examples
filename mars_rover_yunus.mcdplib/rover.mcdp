@@ -1,0 +1,17 @@
+mcdp {
+    provides velocity [m/s]
+    provides extra_load [kg]
+    requires cost [CHF]
+    
+    sub battery = instance `battery
+    sub chassis_and_motor = instance `chassis_and_motor
+    
+    provided extra_load + mass required by battery ≤ total_load provided by chassis_and_motor
+    
+    provided velocity ≤ velocity provided by chassis_and_motor
+    
+    power required by chassis_and_motor ≤ power provided by battery
+    
+    required cost ≥ cost required by battery
+}
+
