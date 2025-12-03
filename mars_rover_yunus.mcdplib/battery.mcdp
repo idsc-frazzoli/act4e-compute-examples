@@ -1,0 +1,6 @@
+catalog{
+    provides power [W]
+    requires cost [CHF]
+    requires mass [kg]
+    
+}
