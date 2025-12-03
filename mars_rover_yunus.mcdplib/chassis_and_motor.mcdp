@@ -2,5 +2,10 @@ mcdp {
    provides total_load [kg]
    provides velocity [m/s]
    requires power [W]
+   
+   constant m_0 = 70 [kg] 
+   constant k = 1 [W*s/m/kg] 
+   constant p_0 = 100 [W] 
 
+   required power ≥ p_0 + k · (provided total_load + m_0) · provided velocity   
 }
