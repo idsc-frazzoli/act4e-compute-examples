@@ -1,3 +1,14 @@
 mcdp {
-    
+   provides total_load [kg]
+   provides velocity [m/s]
+   requires power [W]
+   
+   
+   total_load [kg]
+   provides velocity [m/s]
+   requires power [W]
+   
+   total_load [kg]
+   provides velocity [m/s]
+   requires power [W]
 }

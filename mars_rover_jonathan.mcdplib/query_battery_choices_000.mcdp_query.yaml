@@ -1,0 +1,8 @@
+title: Query query_battery_choices_000
+description: ''
+model: '`battery_choices'
+query:
+  query_type: FixFunMinRes
+  min_f: {power: 100 J/s}
+  max_r: {batt_mass: 10000 kg, batt_cost: 10000000 USD}
+  optimize_for: [batt_cost]
