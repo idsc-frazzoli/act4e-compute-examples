@@ -4,10 +4,10 @@ mcdp {
     provides velocity [m/s]
     requires power [W]
 
-    constant self_mass = 70 [kg]
-    constant gain_mass_velocity_to_power = 1 [W*s/m/kg]
-    constant min_required_power = 10 [W]
+    constant m_0 = 70 [kg] 'self-mass'
+    constant k = 1 [W*s/m/kg] 'gain_mass_velocity_to_power'
+    constant p_0 = 10 [W] 'min_required_power'
 
-    required power ≥ min_required_power + gain_mass_velocity_to_power · (provided total_load + self_mass) · provided velocity
+    required power ≥ p_0 + k · (provided total_load + m_0) · provided velocity
   
 }

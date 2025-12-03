@@ -3,8 +3,8 @@ description: ''
 model: '`rover_no_extra_payload'
 query:
   query_type: FixFunMinRes
-  min_f: 
-      velocity: '2 m/s'
-  max_r: 
-      batt_cost: '10000 USD'
+  min_f:
+    velocity: 50 m/s
+  max_r:
+    batt_cost: 10000 USD
   optimize_for: [batt_cost]
