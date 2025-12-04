@@ -3,5 +3,5 @@ dp{
     requires mass [kg]
     requires cost [CHF]        
     
-    implemented-by yaml resource("battery_catalogues/battery_catalogue.yaml")
+    implemented-by yaml resource("battery_catalogue.yaml")
 }
