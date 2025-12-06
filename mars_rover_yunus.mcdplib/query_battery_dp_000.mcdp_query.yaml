@@ -1,8 +1,0 @@
-title: Query query_battery_dp_000
-description: ''
-model: '`battery_dp'
-query:
-  query_type: FixFunMinRes
-  min_f: {}
-  max_r: {}
-  optimize_for: []

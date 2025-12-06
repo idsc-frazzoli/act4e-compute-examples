@@ -9,7 +9,7 @@ query:
     min_f: 
         velocity: '0.5 m/s'
         extra_load: '10 kg'
-    resources_limits:
+    max_r:
         cost: 'inf CHF'
         mass: 'inf kg'
     optimize_for: [cost, mass]
