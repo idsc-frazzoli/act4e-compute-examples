@@ -1,5 +1,8 @@
-mcdp{
+catalog{
     provides power [W]
-    requires cost [CHF]
     requires mass [kg]
+    requires cost [CHF]
+    
+    100 W <-> 10 kg, 10 CHF
+    200 W <-> 20 kg, 20 CHF
 }
