@@ -1,0 +1,16 @@
+title: 'Query'
+description: |
+    This is a Markdown description of this query.
+
+model: "`rover"
+
+query:
+    query_type: FixFunMinRes
+    min_f: 
+        velocity: '0.5 m/s'
+        extra_load: '10 kg'
+    resources_limits:
+        cost: 'inf CHF'
+        mass: 'inf kg'
+    optimize_for: [cost, mass]
+
