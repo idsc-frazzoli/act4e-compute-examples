@@ -1,0 +1,15 @@
+title: 'Query'
+description: |
+
+model: "`rover"
+
+query:
+    query_type: FixFunMinRes
+    min_f: 
+        velocity: '1 m/s'
+        extra_load: '1 kg'
+    max_r:
+        cost: 'inf CHF'
+        mass: 'inf kg'
+    optimize_for: [cost, mass]
+
