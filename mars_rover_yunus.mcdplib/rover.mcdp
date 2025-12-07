@@ -15,6 +15,6 @@ mcdp {
     required cost ≥ cost required by battery
     
     requires mass [kg]
-    required mass >= mass required by chassis_and_motor
+    required mass ≥ mass required by chassis_and_motor
 }
 

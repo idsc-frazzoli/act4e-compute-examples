@@ -3,15 +3,21 @@ catalog{
     requires mass [kg]
     requires cost [CHF]
     
-    # lighter but more expensive 
-    150 W <-> 8 kg, 80 CHF
+    # 150 W
+    # Light & more expensive: higher specific energy cells, better packaging
+    150 W <-> 8.0 kg, 150 CHF
     
-    # a bit heavier, a big cheaper 
-    180 W <-> 10 kg, 70 CHF 
+    # 200 W
+    # Heavy & cheaper 
+    200 W <-> 13.0 kg, 130 CHF
     
-    # heavier byt clearly cheaper 
-    220 W <-> 13 kg, 60 CHF
+    # Light & more expensive 
+    200 W <-> 10.0 kg, 190 CHF
     
-    # even more power, heavier and cheapest 
-    260 W <-> 16 kg, 55 CHF
+    # 260 W
+    # Heavy & cheaper 
+    260 W <-> 15.0 kg, 160 CHF 
+    
+    # Light & more expensive 
+    260 W <-> 12.0 kg, 240 CHF
 }

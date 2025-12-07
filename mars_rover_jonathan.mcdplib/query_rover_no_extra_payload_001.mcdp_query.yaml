@@ -1,0 +1,8 @@
+title: Query query_rover_no_extra_payload_001
+description: ''
+model: '`rover_no_extra_payload'
+query:
+  query_type: FixFunMinRes
+  min_f: {}
+  max_r: {}
+  optimize_for: []
